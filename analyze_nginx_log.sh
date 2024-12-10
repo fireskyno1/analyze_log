@@ -5,8 +5,8 @@ echo " ========================================================= "
 echo " \                 Nginx日志安全分析脚本 V0.1           / "
 echo " ========================================================= "
 echo " # 支持Nginx日志分析，攻击告警分析等                    "
-echo " # author：优化版作者名                    "
-echo " # https://github.com/your_username                    "
+echo " # author：fireskyno1                    "
+echo " # https://github.com/fireskyno1/analyze_log                   "
 echo -e "\n"
 
 # 分析结果存储目录，结尾不能加/
@@ -18,7 +18,7 @@ else
     mkdir -p $outfile
 fi
 
-# 验证操作系统是 debian 系还是 centos
+# 验证操作系统是 debian 系还是 CentOS
 OS='None'
 if [ -e "/etc/os-release" ]; then
     source /etc/os-release
