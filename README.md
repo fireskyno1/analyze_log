@@ -17,5 +17,6 @@ Nginx日志安全分析脚本
 ### 参考
 al0ne
 ### 使用方法
+* chmod755 analyze_nginx_log.sh
 * ./analyze_nginx_log.sh access.log
 * 分析日志结果存于/tmp/logs
