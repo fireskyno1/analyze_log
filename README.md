@@ -14,8 +14,8 @@ Nginx日志安全分析脚本
 * 寻找302跳转的脚本文件
 
 
-###参考
+### 参考
 al0ne
-###使用
-./analyze_nginx_log.sh access.log
-分析日志结果存于/tmp/logs
+### 使用方法
+* ./analyze_nginx_log.sh access.log
+* 分析日志结果存于/tmp/logs
